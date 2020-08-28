@@ -7,7 +7,10 @@ It does the following things:
     2. Given a text, detects de language in which it is written.
     3. Given a text and a language, does 1 & 2.
 
-I have used the Microsoft Azure Cognitive Services API to translate and detect the language of the inputs.
+I have used:
+
+i. The Twilio Whatsapp API to send an receive messages using the bot.
+ii. The Microsoft Azure Cognitive Services API to translate and detect the language of the inputs.
 
 
 ## Usage
