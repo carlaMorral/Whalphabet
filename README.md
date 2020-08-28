@@ -9,8 +9,8 @@ It does the following things:
 
 I have used:
 
-    i. The Twilio Whatsapp API to send an receive messages using the bot.
-    ii. The Microsoft Azure Cognitive Services API to translate and detect the language of the inputs.
+    · The Twilio Whatsapp API to send an receive messages using the bot.
+    · The Microsoft Azure Cognitive Services API to translate and detect the language of the inputs.
 
 
 ## Usage
