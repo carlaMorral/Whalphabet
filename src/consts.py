@@ -1,4 +1,4 @@
-import os, requests, uuid, json
+import os, uuid
 
 key_var_name = 'TRANSLATOR_TEXT_SUBSCRIPTION_KEY'
 if not key_var_name in os.environ:
@@ -12,6 +12,7 @@ endpoint = os.environ[endpoint_var_name]
 
 headers = {
     'Ocp-Apim-Subscription-Key': subscription_key,
+    'Ocp-Apim-Subscription-Region': 'eastus',
     'Content-type': 'application/json',
     'X-ClientTraceId': str(uuid.uuid4())
 }

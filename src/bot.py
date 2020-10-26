@@ -6,7 +6,6 @@ import re
 from consts import TAGS
 from detect import detect_language
 from translate_text import translate, detect_translate
-from get_languages import get_supported_languages
 
 app = Flask(__name__)
 
@@ -49,4 +48,4 @@ def showHelp():
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host="0.0.0.0", debug=True)
