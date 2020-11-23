@@ -15,4 +15,5 @@ I have used:
 
 ## Usage
 
-TBD
+I wrote an article where you will see how to use this amazing tool!
+https://www.twilio.com/blog/python-flask-microsoft-azure-whatsapp-translator
